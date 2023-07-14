@@ -47,6 +47,8 @@ The package allows roboticists to
         ```
         pip install Cython==0.29.30
         pip install pkgconfig==1.5.5
+        pip3 install pycryptodomex
+        pip install gnupg
         ```
 5. Install the following ROS packages:
    * `ros-noetic-depthimage-to-laserscan`
@@ -62,6 +64,10 @@ The package allows roboticists to
 8. Install Python pacakges required by this repo:
     ```
     pip install -r requirements.txt
+    ```
+9. ModuleNotFoundError: No module named 'netifaces'
+    ```
+    pip install --target ~/anaconda3/envs/habitat/lib/python3.9/site-packages/ netifaces --upgrade
     ```
 
 ## Examples
