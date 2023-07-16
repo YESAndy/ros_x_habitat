@@ -76,6 +76,17 @@ The package allows roboticists to
     conda install libffi==3.3
     https://github.com/conda/conda/issues/12287
 
+11. install clip and blip
+    ```
+    pip install ftfy regex tqdm
+    pip install git+https://github.com/openai/CLIP.git
+
+    pip install salesforce-lavis
+    ```
+12. install grounding-dino
+   https://github.com/IDEA-Research/GroundingDINO
+
+
 ## Examples
 Here we outline steps to reproduce experiments from our paper. 
 
