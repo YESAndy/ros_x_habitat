@@ -73,7 +73,8 @@ The package allows roboticists to
     ```
 
 10. undefined symbol: ffi_type_pointer, version LIBFFI_BASE_7.0 from CV_bridge()
-    
+    conda install libffi==3.3
+    https://github.com/conda/conda/issues/12287
 
 ## Examples
 Here we outline steps to reproduce experiments from our paper. 
