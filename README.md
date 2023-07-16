@@ -49,6 +49,8 @@ The package allows roboticists to
         pip install pkgconfig==1.5.5
         pip3 install pycryptodomex
         pip install gnupg
+        pip install defusedxml
+        pip install pandas tensorboard
         ```
 5. Install the following ROS packages:
    * `ros-noetic-depthimage-to-laserscan`
@@ -69,6 +71,9 @@ The package allows roboticists to
     ```
     pip install --target ~/anaconda3/envs/habitat/lib/python3.9/site-packages/ netifaces --upgrade
     ```
+
+10. undefined symbol: ffi_type_pointer, version LIBFFI_BASE_7.0 from CV_bridge()
+    
 
 ## Examples
 Here we outline steps to reproduce experiments from our paper. 
